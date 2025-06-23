@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "Your Project Number Here",
+    "project_id": "Your Project ID Here",
+    "storage_bucket": "Your Storage Bucket Here.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "Enter Your Mobile SDK App ID Here",
+        "android_client_info": {
+          "package_name": "com.example.studata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "Your Api Key Here"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

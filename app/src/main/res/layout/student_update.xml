@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="#040404"
+        android:orientation="vertical"
+        tools:context=".StudentUpdate">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Upload Picture"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/empty_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/image"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Email"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/student_email"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Password"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/student_password"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+
+            android:paddingLeft="10dp"
+            android:id="@+id/student_name"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="Name"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Roll No."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:id="@+id/student_roll"
+            android:paddingLeft="10dp"
+            android:hint="Roll No."
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter CGPA"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="CGPA"
+            android:id="@+id/student_cgpa"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Semester"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bolditalic"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="Semester"
+            android:id="@+id/student_semester"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColorHint="@color/white"/>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:background="@drawable/bg_for_button"
+            android:id="@+id/update_btn"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

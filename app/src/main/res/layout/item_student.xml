@@ -1,0 +1,63 @@
+<!-- item_student.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/black">
+    <ImageView
+        android:id="@+id/student_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/student_name"
+        android:fontFamily="@font/lato_bolditalic"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/student_email"
+        android:fontFamily="@font/lato_bolditalic"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/student_cgpa"
+        android:fontFamily="@font/lato_bolditalic"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CGPA" />
+
+    <TextView
+        android:id="@+id/student_roll"
+        android:fontFamily="@font/lato_bolditalic"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Roll" />
+
+    <TextView
+        android:id="@+id/student_semester"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:fontFamily="@font/lato_bolditalic"
+        android:layout_height="wrap_content"
+        android:text="Semester" />
+</LinearLayout>
+</LinearLayout>

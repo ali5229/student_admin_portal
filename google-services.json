@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21776697306",
+    "project_id": "studata2-bf5b3",
+    "storage_bucket": "studata2-bf5b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21776697306:android:fd2a943ea48dac016562e3",
+        "android_client_info": {
+          "package_name": "com.example.studata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE6D0vxL8VPEJdGNK_9F2AlVWyf2zTCDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
